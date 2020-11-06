@@ -1,4 +1,4 @@
-package preparedstatement.crud.crud;
+package preparedstatement.crud;
 
 import bean.Customer;
 import utils.JDBCUtils;

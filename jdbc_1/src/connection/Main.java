@@ -1,6 +1,6 @@
 package connection;
 
-import preparedstatement.crud.crud.PreparedStatementUpdateTest;
+import preparedstatement.crud.PreparedStatementUpdateTest;
 
 public class Main {
     public static void main(String[] args) throws Exception {
