@@ -1,6 +1,7 @@
 package transaction;
 
 import utils.JDBCUtils;
+import utils.JDBCUtils1;
 
 import java.sql.Connection;
 
@@ -9,7 +10,7 @@ import java.sql.Connection;
  */
 public class ConnectionTest {
     public static void main(String[] args) throws Exception {
-        Connection conn = JDBCUtils.getConnection();
+        Connection conn = JDBCUtils1.getConnection2();
         System.out.println(conn);
     }
 }
